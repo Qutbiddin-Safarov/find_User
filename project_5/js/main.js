@@ -1,45 +1,4 @@
-// let users = [
-//     {
-//       name: "alex Doe",
-//       age: 14
-//     },
-//     {
-//       name: "Elon Doe",
-//       age: 27
-//     },
-//     {
-//       name: "John Doe",
-//       age: 17
-//     }
-//   ];
 
-//   function A_z(){
-//     users.sort(function (a, b) {
-//     if (a.name < b.name) {
-//       return -1;
-//     }
-//     if (a.name > b.name) {
-//       return 1;
-//     }
-//     return 0;
-//   });
-  
-//   console.log(users);
-//   }
-      
-//   function z_A(){
-//     users.sort(function (a, b) {
-//     if (a.name < b.name) {
-//       return 1;
-//     }
-//     if (a.name > b.name) {
-//       return -1;
-//     }
-//     return 0;
-//   });
-  
-//   console.log(users);
-//   }
 
 
 const tbody = document.getElementById('tbody');

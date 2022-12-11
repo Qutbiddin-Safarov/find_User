@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project_9</title>
+</head>
+<body>
+
+    <button onclick="max_left()" id="max_left">
+        Max left
+    </button>
+    <button onclick="min_left()" id="min_left">
+        Min left
+    </button>
+    <button onclick="reverse()" id="reverse">
+        Sort reverse
+    </button>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-6 offset-3">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Fruit</th>
+                            <th>Price</th>
+                            <th>Left(kg)</th>
+                        </tr>
+                    </thead>
+                    <tbody id="catalog"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
